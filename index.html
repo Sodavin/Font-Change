@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Font Change</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            
+        }
+        #size {
+            font-size: 18px;
+            width: 80%;
+            margin: auto;
+            margin-top: 40px;
+            text-align: justify;
+        }
+        #btn {
+            
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        #btn button {
+            margin: 0 10px;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="size">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero rerum ullam repellat sunt sequi delectus quis, id impedit eaque vero officia ut error dicta, itaque doloremque accusamus. In, consequatur! Dolorem.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero rerum ullam repellat sunt sequi delectus quis, id impedit eaque vero officia ut error dicta, itaque doloremque accusamus. In, consequatur! Dolorem.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero rerum ullam repellat sunt sequi delectus quis, id impedit eaque vero officia ut error dicta, itaque doloremque accusamus. In, consequatur! Dolorem.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero rerum ullam repellat sunt sequi delectus quis, id impedit eaque vero officia ut error dicta, itaque doloremque accusamus. In, consequatur! Dolorem.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero rerum ullam repellat sunt sequi delectus quis, id impedit eaque vero officia ut error dicta, itaque doloremque accusamus. In, consequatur! Dolorem.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero rerum ullam repellat sunt sequi delectus quis, id impedit eaque vero officia ut error dicta, itaque doloremque accusamus. In, consequatur! Dolorem.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero rerum ullam repellat sunt sequi delectus quis, id impedit eaque vero officia ut error dicta, itaque doloremque accusamus. In, consequatur! Dolorem.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero rerum ullam repellat sunt sequi delectus quis, id impedit eaque vero officia ut error dicta, itaque doloremque accusamus. In, consequatur! Dolorem.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero rerum ullam repellat sunt sequi delectus quis, id impedit eaque vero officia ut error dicta, itaque doloremque accusamus. In, consequatur! Dolorem.
+        </p>
+    </div>
+
+    <div id="btn">
+        <button type="button" onclick="document.getElementById('size').style.fontSize='18px'" style="border: none; background: none;">Font Size: </button>
+        <button type="button" onclick="document.getElementById('size').style.fontSize='18px'">Default</button>
+        <button type="button" onclick="document.getElementById('size').style.fontSize='20px'">+</button>
+        <button type="button" onclick="document.getElementById('size').style.fontSize='24px'">++</button>
+    </div>
+</body>
+</html>
